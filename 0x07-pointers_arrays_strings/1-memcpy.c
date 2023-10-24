@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * _memcpy() the function
- * @src - from which the function is copied
- * @dest - where the function is copied to
- * @n - number of bytes
+ *_memcpy - main function prototype
  *
- * Return: copied memory
+ *@src: Source parameter
+ *
+ *@dest: Destination parameter
+ *
+ *@n: Function parameter
+ *Return: Copied memory
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
