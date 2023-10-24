@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * _strchr - main function
- *@c - Function parameter
- *@s - Function parameter
- *
- * Return: Always 0
- */
+  * _strchr - main function
+  *
+  * @s: Function parameter
+  *
+  * @c: Function parameter
+  *
+  * Return: Always o.
+  */
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
